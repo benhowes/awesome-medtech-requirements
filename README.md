@@ -2,6 +2,9 @@
 
 A curated list of tools, standards, and research projects to help medtech teams manage requirements and risk in compliance with [IEC 62304](https://www.iec.ch/standards/iec62304), [ISO 14971](https://www.iso.org/standard/72704.html), and [ISO 13485](https://www.iso.org/standard/59752.html) (as well as FDA design controls).
 
+> [!TIP]
+> This list is new, and is not exhaustive. Contributions are welcome!
+
 ## Key
 
 | Symbol | Meaning |
