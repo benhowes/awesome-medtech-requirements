@@ -18,8 +18,6 @@ A curated list of tools, standards, and research projects to help medtech teams 
 - [Academic Projects & Research](#academic-projects--research)
 - [Templates](#templates)
 
----
-
 ## Requirements Management Tools (standalone)
 
 - **[Doorstop](https://doorstop.readthedocs.io/)**
@@ -57,8 +55,6 @@ A curated list of tools, standards, and research projects to help medtech teams 
 - **[Tento plus](https://tentoplus.com/)**
   A requirements management tool with AI, suitable for medical device compliance with full traceability. 💰
 
----
-
 ## Requirements Management Tools (in Jira)
 
 Resources for setting up your Requirements and Risk Management in [Jira](https://www.atlassian.com/software/jira):
@@ -72,13 +68,10 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 - **[Ketryx](https://www.ketryx.com/)**
   A Jira integrated tool which extends Jira with requirements management and risk management features, SBOM, security features, and more - everything needed to setup a medtech compliance workflow and agile delivery system. 💰
 
----
 ## Requirements Management Tools (embedded in other tools)
 
 - **[Modern Requirements](https://www.modernrequirements.com/)**
   An Azure DevOps integrated tool for streamlined requirements management. 💰
-
----
 
 ## Requirements Management Tools (within eQMS)
 
@@ -93,8 +86,6 @@ Includes eQMS tools whcih have a requirements management function suitable for m
 - **[Open Regulatory Formwork](https://openregulatory.org/)**
   An eQMS solution featuring a dedicated requirements and risk management module for ISO 62304/14971/13485. 💰
 
----
-
 ## Interchange Standards
 
 - **[ReqIF](https://www.omg.org/spec/ReqIF/)**
@@ -103,8 +94,6 @@ Includes eQMS tools whcih have a requirements management function suitable for m
   An emerging vendor-neutral standard building on ReqIF concepts. 🆓
 - **[OSLC](https://www.open-services.net/oslc/)**
   Defines RESTful web service interfaces for real-time sharing of requirements data. 🆓
-
----
 
 ## Academic Projects & Research
 
@@ -119,15 +108,11 @@ Includes eQMS tools whcih have a requirements management function suitable for m
 - **[Standards Evolution and Trace Research](https://scholar.google.com/scholar?q=standards+evolution+trace+requirements+medtech)**
   Studies on adapting requirements management tools to evolving standards.
 
----
-
 ## Templates
 
 n.b. that most/all paid QMS tools provide templates.
 
 - **[OpenRegulatory Templates](https://openregulatory.org/)**
   Community-driven open templates covering IEC 62304, ISO 14971, and ISO 13485. 🆓
-
----
 
 Contributions, improvements, and corrections are always welcome! Please use github issues and/or pull requests to contribute.
