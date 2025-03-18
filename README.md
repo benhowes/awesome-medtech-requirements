@@ -78,16 +78,14 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 
 ## Requirements Management Tools (within eQMS)
 
-Includes eQMS tools whcih have a requirements management function suitable for medtech.
+Includes eQMS tools whcih have a requirements management function suitable for medtech. All feature ISO 62304/14971/13485 compliance.
 
-- **[Greenlight Guru](https://www.greenlight.guru/)**
-  An eQMS solution featuring a dedicated requirements and risk management module for ISO 62304/14971/13485. 💰
-- **[Dot Compliance](https://www.dotcompliance.com/)**
-  An eQMS solution featuring a dedicated requirements and risk management module for ISO 62304/14971/13485. 💰
-- **[Qualio](https://www.qualio.com/)**
-  An eQMS solution featuring a dedicated requirements and risk management module for ISO 62304/14971/13485. 💰
-- **[Open Regulatory Formwork](https://openregulatory.org/)**
-  An eQMS solution featuring a dedicated requirements and risk management module for ISO 62304/14971/13485. 💰
+- **[Greenlight Guru](https://www.greenlight.guru/)** 💰
+- **[Dot Compliance](https://www.dotcompliance.com/)** 💰
+- **[Qualio](https://www.qualio.com/)** 💰
+- **[Open Regulatory Formwork](https://openregulatory.org/)** 💰
+- **[Matrix Requirements](https://matrixreq.com/)** 💰
+- **[Formly](https://www.formly.ai/)** 💰
 
 ## Interchange Standards
 
