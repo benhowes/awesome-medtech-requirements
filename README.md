@@ -1,6 +1,6 @@
 # Awesome MedTech Requirements [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of tools, standards, and research projects to help medtech teams manage requirements and risk in compliance with [IEC 62304](https://www.iec.ch/standards/iec62304), [ISO 14971](https://www.iso.org/standard/72704.html), and [ISO 13485](https://www.iso.org/standard/59752.html) (as well as FDA design controls).
+A curated list of tools, standards, and research projects to help medtech teams manage requirements and risk in compliance with [IEC 62304](https://www.iso.org/standard/38421.html), [ISO 14971](https://www.iso.org/standard/72704.html), and [ISO 13485](https://www.iso.org/standard/59752.html) (as well as FDA design controls).
 
 > [!TIP]
 > This list is new, and is not exhaustive. Contributions are welcome!
@@ -45,7 +45,7 @@ A curated list of tools, standards, and research projects to help medtech teams 
   A modern platform offering end-to-end traceability and review workflows. 💰
 - **[Siemens Polarion ALM](https://www.plm.automation.siemens.com/global/en/products/polarion/)**
   Features a dedicated MedPack template for IEC 62304 compliance. 💰
-- **[PTC Codebeamer ALM](https://www.ptc.com/en/products/ptc-codebeamer-alm)**
+- **[PTC Codebeamer ALM](https://www.ptc.com/en/products/codebeamer)**
   Provides pre-configured medical process templates and dynamic traceability. 💰
 - **[Visure Requirements](https://www.visuresolutions.com/)**
   An ALM solution with traceability across requirements, risks, and tests. 💰
@@ -95,19 +95,17 @@ Includes eQMS tools whcih have a requirements management function suitable for m
   The OMG standard XML schema for exchanging requirements between tools. 🆓
 - **[SpecIF](http://specif.de/)**
   An emerging vendor-neutral standard building on ReqIF concepts. 🆓
-- **[OSLC](https://www.open-services.net/oslc/)**
+- **[OSLC](https://open-services.net/)**
   Defines RESTful web service interfaces for real-time sharing of requirements data. 🆓
 
 ## Academic Projects & Research
 
 - **[OpenReq Project](https://openreq.eu/)**
   An EU H2020 initiative offering intelligent recommendations for requirements management.
-- **[MDevSPICE Framework](https://www.mdevspice.eu/)**
+- **[MDevSPICE Framework](https://link.springer.com/chapter/10.1007/978-3-319-13036-1_26)**
   A consolidated process model integrating IEC 62304, ISO 14971, ISO 13485, and FDA controls.
 - **[Multi-level Requirements Modelling Research](https://scholar.google.com/scholar?q=Multi-level+Requirements+Modelling+MedTech)**
   Research on decomposing and tracing user needs through to software requirements.
-- **[Assurance Case-Driven RE](https://link.springer.com/article/10.1007/s00766-012-0181-4)**
-  Research on linking requirements with assurance cases for enhanced safety evidence.
 - **[Standards Evolution and Trace Research](https://scholar.google.com/scholar?q=standards+evolution+trace+requirements+medtech)**
   Studies on adapting requirements management tools to evolving standards.
 
