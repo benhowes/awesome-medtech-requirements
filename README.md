@@ -75,6 +75,8 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 
 - **[Modern Requirements](https://www.modernrequirements.com/)**
   An Azure DevOps integrated tool for streamlined requirements management. 💰
+- **[Allowly](https://allowly.ai/use-cases/gxp-ai-agent-controls/)**
+  A policy-gate and signed decision-record layer that teams can integrate with requirements and risk workflows; it records submitted checks but does not manage requirements or prove downstream execution. 💰
 
 ## Requirements Management Tools (within eQMS)
 
