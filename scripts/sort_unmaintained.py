@@ -42,7 +42,7 @@ from pathlib import Path
 import requests
 
 API = "https://api.github.com"
-SUMMARY = "<summary>Unmaintained (archived, or no commits in {years}+ years)</summary>"
+SUMMARY = "<summary>Unmaintained (archived, or no commits in {years}+ {unit})</summary>"
 
 ENTRY_RE = re.compile(r"^- ")
 CONTINUATION_RE = re.compile(r"^  +\S")
@@ -102,7 +102,7 @@ class Section:
         if self.stale:
             if self.active:
                 out.append("")
-            out += ["<details>", SUMMARY.format(years=_fmt_years(years)), ""]
+            out += ["<details>", SUMMARY.format(years=_fmt_years(years), unit="year" if years == 1 else "years"), ""]
             for entry in self.stale:
                 out += entry.lines
             out += ["", "</details>"]
@@ -248,7 +248,7 @@ def fetch_status(session: requests.Session, repo: str) -> RepoStatus | None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("readme", nargs="?", default="README.md", type=Path)
-    parser.add_argument("--stale-years", type=float, default=2, help="years without commits before a repo is unmaintained")
+    parser.add_argument("--stale-years", type=float, default=1, help="years without commits before a repo is unmaintained")
     parser.add_argument("--check", action="store_true", help="don't write; exit 1 if the file would change")
     parser.add_argument("--summary", type=Path, help="write a markdown summary of changes to this file")
     args = parser.parse_args()
