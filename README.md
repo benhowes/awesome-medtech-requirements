@@ -26,10 +26,6 @@ A curated list of tools, standards, and research projects to help medtech teams 
 
 - **[Doorstop](https://doorstop.readthedocs.io/)** <!-- github: doorstop-dev/doorstop -->
   An open source requirements management tool that leverages Git for version control. 🆓
-- **[OSRMT](https://github.com/osrmt/osrmt)**
-  A free tool for full SDLC traceability of features, requirements, design, and tests. 🆓
-- **[rmtoo](https://github.com/florath/rmtoo)**
-  Command-line requirements management via text files and version control. 🆓
 - **[Eclipse RMF / ReqIF Studio](https://www.eclipse.org/rmf/)**
   An open implementation of the ReqIF standard for requirements exchange. 🆓
 - **[Sphinx-Needs](https://sphinx-needs.readthedocs.io/)** <!-- github: useblocks/sphinx-needs -->
@@ -58,14 +54,24 @@ A curated list of tools, standards, and research projects to help medtech teams 
   Generates comprehensive traceability reports aligned with IEC 62304. 💰
 - **[Tento plus](https://tentoplus.com/)**
   A requirements management tool with AI, suitable for medical device compliance with full traceability. 💰
-- **[RDM (Regulatory Documentation Manager)](https://github.com/innolitics/rdm)**
-  An open source tool from Innolitics that generates IEC 62304, ISO 14971, and 510(k) documentation from markdown templates, with traceability to GitHub issues. 🆓
 - **[jamb](https://github.com/vanandrew/jamb)**
   Links pytest tests to requirements and generates IEC 62304 traceability matrices for regulatory submissions. 🆓
 - **[OpenFastTrace](https://github.com/itsallcode/openfasttrace)**
   A requirements tracing suite that checks specification items are covered through design, code, and tests, producing HTML trace reports. 🆓
 - **[Spexygen](https://github.com/QuantumLeaps/spexygen)**
   Traceable specifications built on Doxygen, aimed at functional safety standards including IEC 62304. 🆓
+
+<details>
+<summary>Unmaintained (archived, or no commits in 1+ year)</summary>
+
+- **[rmtoo](https://github.com/florath/rmtoo)** _(last commit 2025)_
+  Command-line requirements management via text files and version control. 🆓
+- **[RDM (Regulatory Documentation Manager)](https://github.com/innolitics/rdm)** _(last commit 2022)_
+  An open source tool from Innolitics that generates IEC 62304, ISO 14971, and 510(k) documentation from markdown templates, with traceability to GitHub issues. 🆓
+- **[OSRMT](https://github.com/osrmt/osrmt)** _(last commit 2020)_
+  A free tool for full SDLC traceability of features, requirements, design, and tests. 🆓
+
+</details>
 
 ## Requirements Management Tools (in Jira)
 
@@ -131,7 +137,13 @@ n.b. that most/all paid QMS tools provide templates.
 
 - **[OpenRegulatory Templates](https://openregulatory.org/)**
   Community-driven open templates covering IEC 62304, ISO 14971, and ISO 13485. 🆓
-- **[GSTT-CSC QMS Template](https://github.com/GSTT-CSC/QMS-Template)**
+
+<details>
+<summary>Unmaintained (archived, or no commits in 1+ year)</summary>
+
+- **[GSTT-CSC QMS Template](https://github.com/GSTT-CSC/QMS-Template)** _(last commit 2025)_
   A QMS template from Guy's and St Thomas' Clinical Scientific Computing team. Note: not production ready as is, so will need adapting before use. 🆓
+
+</details>
 
 Contributions, improvements, and corrections are always welcome! Please use github issues and/or pull requests to contribute.
