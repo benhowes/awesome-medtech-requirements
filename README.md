@@ -58,6 +58,14 @@ A curated list of tools, standards, and research projects to help medtech teams 
   Generates comprehensive traceability reports aligned with IEC 62304. 💰
 - **[Tento plus](https://tentoplus.com/)**
   A requirements management tool with AI, suitable for medical device compliance with full traceability. 💰
+- **[RDM (Regulatory Documentation Manager)](https://github.com/innolitics/rdm)**
+  An open source tool from Innolitics that generates IEC 62304, ISO 14971, and 510(k) documentation from markdown templates, with traceability to GitHub issues. 🆓
+- **[jamb](https://github.com/vanandrew/jamb)**
+  Links pytest tests to requirements and generates IEC 62304 traceability matrices for regulatory submissions. 🆓
+- **[OpenFastTrace](https://github.com/itsallcode/openfasttrace)**
+  A requirements tracing suite that checks specification items are covered through design, code, and tests, producing HTML trace reports. 🆓
+- **[Spexygen](https://github.com/QuantumLeaps/spexygen)**
+  Traceable specifications built on Doxygen, aimed at functional safety standards including IEC 62304. 🆓
 
 ## Requirements Management Tools (in Jira)
 
@@ -76,6 +84,8 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 
 - **[Modern Requirements](https://www.modernrequirements.com/)**
   An Azure DevOps integrated tool for streamlined requirements management. 💰
+- **[Medtech OS](https://innolitics.com/services/medtech-os/)**
+  A Notion-based workspace from Innolitics with Design History File templates, traceability, and project management for SaMD teams. Free and paid tiers. 🆓💰
 
 ## Requirements Management Tools (within eQMS)
 
