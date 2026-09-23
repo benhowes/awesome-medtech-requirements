@@ -12,8 +12,6 @@ A curated list of tools, standards, and research projects to help medtech teams 
 | 🆓 | Open Source (or Free to Use) |
 | 💰 | Commercial/Paid |
 
-Open source projects that are archived, or have had no commits for 2+ years, are moved into a collapsed *Unmaintained* block at the end of their section. This is checked weekly by [`scripts/sort_unmaintained.py`](scripts/sort_unmaintained.py).
-
 ## Contents
 - [Requirements Management Tools (standalone)](#requirements-management-tools-standalone)
 - [Requirements Management Tools (in Jira)](#requirements-management-tools-in-jira)
@@ -34,7 +32,7 @@ Open source projects that are archived, or have had no commits for 2+ years, are
   Command-line requirements management via text files and version control. 🆓
 - **[Eclipse RMF / ReqIF Studio](https://www.eclipse.org/rmf/)**
   An open implementation of the ReqIF standard for requirements exchange. 🆓
-- **[Sphinx-Needs](https://www.sphinx-needs.com/)** <!-- github: useblocks/sphinx-needs -->
+- **[Sphinx-Needs](https://sphinx-needs.readthedocs.io/)** <!-- github: useblocks/sphinx-needs -->
   A documentation tool for managing and presenting requirements 🆓
 - **[StrictDoc](https://strictdoc.readthedocs.io/)** <!-- github: strictdoc-project/strictdoc -->
   A documentation and requirements management tool with focus on traceability, custom fields, and source code linking. Supports export to HTML, RST, ReqIF, PDF, JSON, and Excel. 🆓
