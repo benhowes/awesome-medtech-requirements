@@ -1,0 +1,28 @@
+name: Sort unmaintained projects
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Move archived / inactive GitHub projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run scripts/sort_unmaintained.py README.md --summary "$RUNNER_TEMP/summary.md"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/sort-unmaintained
+          commit-message: Move unmaintained projects into collapsed sections
+          title: Move unmaintained projects into collapsed sections
+          body-path: ${{ runner.temp }}/summary.md
+          delete-branch: true
