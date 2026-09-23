@@ -85,7 +85,7 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 - **[Modern Requirements](https://www.modernrequirements.com/)**
   An Azure DevOps integrated tool for streamlined requirements management. 💰
 - **[Medtech OS](https://innolitics.com/services/medtech-os/)**
-  A Notion-based workspace from Innolitics with Design History File templates, traceability, and project management for SaMD teams. Free and paid tiers. 🆓💰
+  A Notion-based workspace from Innolitics with Design History File templates, traceability, and project management for SaMD teams. 💰
 
 ## Requirements Management Tools (within eQMS)
 
