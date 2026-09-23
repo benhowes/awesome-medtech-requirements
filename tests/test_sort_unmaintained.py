@@ -112,10 +112,11 @@ def test_unknown_status_leaves_entry_in_place():
     assert changes == []
 
 
-def test_readme_parses_without_changes_when_nothing_is_stale():
+def test_readme_round_trips_unchanged():
+    # With no status information nothing moves, so the README must re-render
+    # byte for byte, whether or not it already has collapsed blocks.
     readme = (Path(__file__).resolve().parents[1] / "README.md").read_text(encoding="utf-8")
-    statuses = {repo: FRESH for repo in repos_in(readme)}
-    text, changes = rearrange(readme, statuses, NOW, 2)
+    text, changes = rearrange(readme, {}, NOW, 1)
     assert text == readme
     assert changes == []
 
