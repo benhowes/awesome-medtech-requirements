@@ -17,6 +17,7 @@ A curated list of tools, standards, and research projects to help medtech teams 
 - [Requirements Management Tools (in Jira)](#requirements-management-tools-in-jira)
 - [Requirements Management Tools (embedded in other tools)](#requirements-management-tools-embedded-in-other-tools)
 - [Requirements Management Tools (within eQMS)](#requirements-management-tools-within-eqms)
+- [AI Agent Controls](#ai-agent-controls)
 - [Interchange Standards](#interchange-standards)
 - [Academic Projects & Research](#academic-projects--research)
 - [Templates](#templates)
@@ -75,8 +76,6 @@ Resources for setting up your Requirements and Risk Management in [Jira](https:/
 
 - **[Modern Requirements](https://www.modernrequirements.com/)**
   An Azure DevOps integrated tool for streamlined requirements management. 💰
-- **[Allowly](https://allowly.ai/use-cases/gxp-ai-agent-controls/)**
-  A policy-gate and signed decision-record layer that teams can integrate with requirements and risk workflows; it records submitted checks but does not manage requirements or prove downstream execution. 💰
 
 ## Requirements Management Tools (within eQMS)
 
@@ -88,6 +87,13 @@ Includes eQMS tools whcih have a requirements management function suitable for m
 - **[Open Regulatory Formwork](https://openregulatory.org/)** 💰
 - **[Matrix Requirements](https://matrixreq.com/)** 💰
 - **[Formly](https://www.formly.ai/)** 💰
+
+## AI Agent Controls
+
+Tools for governing and recording the actions of AI agents within regulated (GxP) workflows. These are not requirements management tools, but can be integrated alongside them.
+
+- **[Allowly](https://allowly.ai/use-cases/gxp-ai-agent-controls/)**
+  A policy-gate and signed decision-record layer that teams can integrate with requirements and risk workflows; it records submitted checks but does not manage requirements or prove downstream execution. 💰
 
 ## Interchange Standards
 
@@ -115,5 +121,7 @@ n.b. that most/all paid QMS tools provide templates.
 
 - **[OpenRegulatory Templates](https://openregulatory.org/)**
   Community-driven open templates covering IEC 62304, ISO 14971, and ISO 13485. 🆓
+- **[GSTT-CSC QMS Template](https://github.com/GSTT-CSC/QMS-Template)**
+  A QMS template from Guy's and St Thomas' Clinical Scientific Computing team. Note: not production ready as is, so will need adapting before use. 🆓
 
 Contributions, improvements, and corrections are always welcome! Please use github issues and/or pull requests to contribute.
