@@ -123,3 +123,10 @@ def test_readme_parses_without_changes_when_nothing_is_stale():
 def test_repo_hint_is_used_for_docs_sites():
     text, _ = rearrange(AFTER, {**STATUSES, "e/docs": OLD}, NOW, 2)
     assert "- **[Docs](https://docs.example.com/)** <!-- github: e/docs --> _(last commit 2019)_" in text
+
+
+def test_one_year_threshold():
+    recent = RepoStatus(archived=False, last_commit=datetime(2025, 6, 1, tzinfo=timezone.utc))
+    text, _ = rearrange(BEFORE, {**STATUSES, "a/alive": recent}, NOW, 1)
+    assert "<summary>Unmaintained (archived, or no commits in 1+ year)</summary>" in text
+    assert "- **[Alive](https://github.com/a/alive)** _(last commit 2025)_" in text
